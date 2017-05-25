@@ -1,0 +1,2 @@
+# Deepfont
+Deepfont_Japanese

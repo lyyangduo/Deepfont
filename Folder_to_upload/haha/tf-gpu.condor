@@ -1,0 +1,9 @@
+universe                = docker
+docker_image            = docker.io/hljin/tf-gpu:ssh
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+#requirements            = machine=="ilcomp49.ilcomp"
+#environment             = "MULTIGPU=23"
+output                  = tf-gpu.$(Process).out
+error                   = tf-gpu.$(Process).err
+queue 1
